@@ -79,57 +79,60 @@
 
 <!-- RESERVATION SECTION -->
 
-<section class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center cyan-header">RESERVATION</h1>
+<section class="reservation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center cyan-header">RESERVATION</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <label for="date">Check in</label>
+                <br/>
+                <input type="date" name="" id="" placeholder="Date" />
+            </div>
+            <div class="col-md-1">
+                <label for="cars">Night</label>
+                <br />
+                <select name="" id="" form="">
+                    <option value="volvo">1</option>
+                    <option value="saab">2</option>
+                    <option value="opel">3</option>
+                    <option value="audi">4</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="date">Check Out</label>
+                <br />
+                <input type="date" name="" id="" />
+            </div>
+            <div class="col-md-2">
+                <label for="cars">Adult</label>
+                <br />
+                <select name="" id="" form="">
+                    <option value="volvo">1</option>
+                    <option value="saab">2</option>
+                    <option value="opel">3</option>
+                    <option value="audi">4</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <label for="cars">Children</label>
+                <br />
+                <select name="" id="" form="">
+                    <option value="volvo">1</option>
+                    <option value="saab">2</option>
+                    <option value="opel">3</option>
+                    <option value="audi">4</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-info">CHECK AVAILABILITY</button>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-3">
-            <label for="date">Check in</label>
-            <br/>
-            <input type="date" name="" id="" placeholder="Date" />
-        </div>
-        <div class="col-md-1">
-            <label for="cars">Night</label>
-            <br />
-            <select name="" id="" form="">
-                <option value="volvo">1</option>
-                <option value="saab">2</option>
-                <option value="opel">3</option>
-                <option value="audi">4</option>
-            </select>
-        </div>
-        <div class="col-md-3">
-            <label for="date">Check Out</label>
-            <br />
-            <input type="date" name="" id="" />
-        </div>
-        <div class="col-md-2">
-            <label for="cars">Adult</label>
-            <br />
-            <select name="" id="" form="">
-                <option value="volvo">1</option>
-                <option value="saab">2</option>
-                <option value="opel">3</option>
-                <option value="audi">4</option>
-            </select>
-        </div>
-        <div class="col-md-1">
-            <label for="cars">Children</label>
-            <br />
-            <select name="" id="" form="">
-                <option value="volvo">1</option>
-                <option value="saab">2</option>
-                <option value="opel">3</option>
-                <option value="audi">4</option>
-            </select>
-        </div>
-        <div class="col-md-2">
-            <button class="btn btn-info">CHECK AVAILABILITY</button>
-        </div>
-    </div>
+    
 </section>
 
   <div class="container mt-5">
@@ -170,7 +173,7 @@
         <!-- OFFERS SECTION -->
 
         <section class="container">
-            <h1 class="text-center cyan-header">FACILITIES</h1>
+            <h1 class="text-center cyan-header dtext">FACILITIES</h1>
             <br>
             <div style="position: relative; left: 0; right: 0">
                 <img class="img-fluid" src="Resources/1140x350.png" class="backdrop">
@@ -193,7 +196,7 @@
 <section class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1 class="text-center cyan-header">TESTIMONIAL</h1>
+            <h1 class="text-center cyan-header dtext">TESTIMONIAL</h1>
             <br>
         </div>
     </div>
@@ -254,18 +257,20 @@
 <div class="contact-container">
 
     <h1>Contact Us</h1>
-    <div class="locate">
-        <img id="map" src="/Resources/Google Map 1.png" alt="hotel location on the map">
-
-        <form class="form" action="" method="">
-
-            <input id="name" type="text" placeholder="Name"><br>
-            <input type="email" placeholder="Email "><br>
-
-            <textarea rows="5" placeholder="Comments"></textarea><br>
-            <button type="submit">Send</button>
-
-        </form>
+    <div class="locate row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img class="img-fluid" id="map" src="/Resources/Google Map 1.png" alt="hotel location on the map">
+        </div>
+        <div class="col-md-3">
+            <form class="form" action="" method="">
+                <input id="name" type="text" placeholder="Name"><br>
+                <input type="email" placeholder="Email "><br>
+                <textarea rows="5" placeholder="Comments"></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="col-md-3"></div>
     </div>
 
 </div>

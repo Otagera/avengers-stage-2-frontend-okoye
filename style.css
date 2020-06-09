@@ -15,6 +15,7 @@ serif; */
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    background-color: #e8f5fa;
 }
 .carousel-item .img-fluid {
     width:100%;
@@ -23,7 +24,7 @@ body{
 
   .dtext{
       color: #55A8AE;
-      font-size: 65px;
+      font-size: 45px;
     line-height: 79px;
     font-family: 'Montserrat', sans-serif;
   }
@@ -58,7 +59,7 @@ h1{
     flex-direction: column;
     height: 280px;
     width:300px;
-    margin: 20px 0;
+    margin: 20px auto;
     
 }
 .form input, textarea{
@@ -75,11 +76,13 @@ input{
 button.btn-book{
     text-align: center;
     cursor:pointer;
-    background-color: #fff;
+    background-color: #55a8ae;
     outline:none;
     height: 30px;
     border: none;
-    color:black;
+    color:white;
+    font-weight: bold;
+    border-radius: 12px;
 
 }
 button:focus{
