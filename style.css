@@ -31,4 +31,171 @@ body{
       font-family:'Montserrat', sans-serif ;
       font-size: 25px;
   }
+  .contact-container{
+    background-color: lightgrey;
+    
+    
+}
+h1{
+    color:#55a8ae;
+    text-align:center;
+    margin: 10px 0px;
+}
+.locate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-container #map{
+    width:350px;
+    height: 300px;
+    
+}
+.form{
+    background-color: #55a8ae;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width:300px;
+    margin: 20px 0;
+    
+}
+.form input, textarea{
+    outline: none;
+    border: none;
+    color: black;
+    margin: 5px 0;
+    font-size: 16px;
+    padding:10px 0px 10px 10px;
+}
+input{
+    height: 30px;
+}
+button.btn-book{
+    text-align: center;
+    cursor:pointer;
+    background-color: #fff;
+    outline:none;
+    height: 30px;
+    border: none;
+    color:black;
 
+}
+button:focus{
+    background-color: darkgrey;
+}
+.backdrop {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.overlap-11 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 7.5%;
+}
+.overlap-text-11 {
+    font-size: 24px;position: absolute;
+    top: 35%;
+    left: 11.5%;
+    color: white;
+    font-size: 2vw;
+}
+.overlap-12 {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 7.5%;
+}
+.overlap-text-12 {
+    font-size: 24px;position: absolute;
+    top: 35%;
+    left: 42.5%;
+    color: white;
+    font-size: 2vw;
+}
+.overlap-13 {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    width: 7.5%;
+}
+.overlap-text-13 {
+    font-size: 24px;position: absolute;
+    top: 35%;
+    left: 80.75%;
+    color: white;
+    font-size: 2vw;
+}
+.overlap-21 {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 7.5%;
+}
+.overlap-text-21 {
+    font-size: 24px;position: absolute;
+    top: 80%;
+    left: 7.5%;
+    color: white;
+    font-size: 2vw;
+}
+.overlap-22 {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    width: 7.5%;
+}
+.overlap-text-22 {
+    font-size: 24px;position: absolute;
+    top: 80%;
+    left: 44.25%;
+    color: white;
+    font-size: 2vw;
+}
+.overlap-23 {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    width: 7.5%;
+}
+.overlap-text-23 {
+    font-size: 24px;position: absolute;
+    top: 80%;
+    left: 80%;
+    color: white;
+    font-size: 2vw;
+}
+.cyan-header{
+    color: #55a8ae;
+}
+.btn-info {
+    background-color: #55a8ae;
+}
+.testi-img{
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+.test-text{    
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.icon-color {
+    background-color: #424242;    
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+li a{
+    color: white;
+}
+li a:hover{
+    color: #424242;
+    text-decoration: none;
+}
